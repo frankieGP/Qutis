@@ -1,0 +1,104 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+.wrap {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+
+}
+.question {
+  font-family: "Avenir";
+}
+
+.answer {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+
+#title {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 150pt;
+  color: black;
+}
+#whatqutis-A, #whatneeded-Q {
+  font-size: 50pt;
+}
+#whatneeded-A, #whatmidi-Q, #whatmidi-A {
+  font-size: 45pt;
+}
+#altexplain-A, #keys-Q, #keys-A {
+  font-size: 25pt;
+}
+#knobs, #xy, #pads {
+  font-size: 20pt;
+}
+
+#whatqutis-Q {
+  font-size: 100pt;
+}
+#whatqutis-A {
+}
+
+#whatneeded-Q {
+}
+#whatneeded-A {
+
+}
+
+
+#whatmidi-Q {
+}
+#whatmidi-A {
+}
+#whatmidi-A p:nth-child(3) {
+  font-size: 30pt;
+}
+
+
+#whatmidido-Q {
+  font-size: 40pt;
+}
+
+#whatmidido-A {
+  font-size: 30pt;
+}
+
+
+#altexplain-Q {
+  font-size: 30pt;
+}
+
+#altexplain-A {
+}
+#keys-Q {
+}
+#keys-A {
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+.features p {
+  font-size: 15pt;
+}
+.features h1 {
+  font-size: 20pt;
+}
+.features .answers {
+
+}
+#xy {
+  padding-left: 30px;
+  padding-right: 30px;
+}
