@@ -34,6 +34,8 @@ body {
   border-radius: 50px;
   background-color: black;
   margin: 20px;
+  transform: rotate(45deg);
+
 }
 #knob1, #knob2, #knob3, #knob4, #knob5, #knob6, #knob7, #knob8 {
   height: 44px;
@@ -43,6 +45,7 @@ body {
   position: relative;
   left: 8px;
   top: 8px;
+
 }
 #tail1, #tail2, #tail3, #tail4, #tail5, #tail6, #tail7, #tail8 {
   background-color: white;
@@ -52,6 +55,7 @@ body {
   position: relative;
   left: 26px;
   top: -14px;
+
 }
 
 .xy {
@@ -163,6 +167,9 @@ body {
   border-radius: 7px;
   margin: 6px;
 }
+.key {
+    background-color: pink;
+}
 .dropdowns {
   position: relative;
   left: 80px;
@@ -174,4 +181,10 @@ body {
   width: 125px;
   text-align: center;
   margin-top: 15px;
+}
+#volume {
+  transform: rotate(-90deg);
+  position: relative;
+  top: -330px;
+  left: -15px;
 }
